@@ -1,0 +1,35 @@
+{
+  "mode": "flat",
+  "tables": {
+    "flat": {
+      "sheet": "공정 실험 기록",
+      "header_row": 6,
+      "data_start_row": 7,
+      "data_end_row": null,
+      "columns": {
+        "lot": "D",
+        "wafer": "G",
+        "power": "F",
+        "pressure": "K",
+        "temperature": "J",
+        "gas": "I",
+        "time": "E",
+        "thickness": "H",
+        "nonuniformity": "C"
+      },
+      "units": {
+        "power": "W",
+        "pressure": "mTorr",
+        "temperature": "original",
+        "gas": "sccm",
+        "time": "s",
+        "thickness": "original",
+        "nonuniformity": "%"
+      },
+      "point_columns": [],
+      "filter_column": null,
+      "filter_value": null
+    }
+  },
+  "notes": []
+}

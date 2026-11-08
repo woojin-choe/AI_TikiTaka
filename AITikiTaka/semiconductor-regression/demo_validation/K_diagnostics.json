@@ -1,0 +1,21 @@
+[
+  {
+    "sheet": "공정 실험 기록",
+    "extracted_rows": 120,
+    "columns": {
+      "lot": "D",
+      "wafer": "G",
+      "power": "F",
+      "pressure": "K",
+      "temperature": "J",
+      "gas": "I",
+      "time": "E",
+      "thickness": "H",
+      "nonuniformity": "C"
+    }
+  },
+  {
+    "output_rows": 120,
+    "invalid_rows_removed": 0
+  }
+]

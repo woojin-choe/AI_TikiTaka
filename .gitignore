@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Local research data and generated validation records
+/DataSet/
+/Bhuva2025-Dataset.xlsx
+/Qwen검증/
+/K회사_새공정_업로드데모.xlsx
+.env
+.env.*
+*.pem
+*.key

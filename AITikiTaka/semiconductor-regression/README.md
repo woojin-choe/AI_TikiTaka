@@ -1,5 +1,29 @@
 # Semiconductor Process Multi-Output Regression
 
+## Local application
+
+The repository now includes a Korean local application for Excel mapping, model training,
+experiment comparison, actual-result tracking, and model version management.
+
+From the workspace root, open `실행.command` and visit `http://127.0.0.1:8502`.
+See [사용안내](../../사용안내.md) for installation, local Ollama setup, demo steps, and limitations.
+The integrated entry point is `app_complete.py`: local Qwen3 14B table discovery and mapping,
+full-sheet extraction, explicit user approval, five-input training (including deposition time),
+evaluation, activation, candidate prediction and real measurement registration.
+The outputs are mean thickness and **half-range nonuniformity (lower is better)**.
+The application reuses `src/models.py`; new project data is isolated in `local_data/integrated`.
+Original four-input `app.py`, CLI artifacts and previous data remain available separately.
+New K/L upload examples in `demo_uploads` are synthetic, with independent expected CSVs
+and real local-LLM integration test results in `demo_validation`.
+
+Run tests from the workspace root:
+
+```bash
+.venv/bin/python -m pytest AITikiTaka/semiconductor-regression/tests -q
+```
+
+The original CLI documentation follows below.
+
 A complete machine-learning pipeline that predicts two key semiconductor process outputs — **Thickness (nm)** and **Uniformity (%)** — from four process parameters using three regression models.
 
 ---

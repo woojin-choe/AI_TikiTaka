@@ -1,0 +1,44 @@
+{
+  "01_영문_양식.xlsx": {
+    "sheet": "Process",
+    "header_row": 1,
+    "data_start_row": 2,
+    "mapping": {
+      "Lot_ID": "A",
+      "RF_Power": "B",
+      "Pressure": "C",
+      "Temperature": "D",
+      "Gas_Flow_Rate": "E",
+      "Thickness": "F",
+      "Uniformity": "G"
+    }
+  },
+  "02_한글_보고서.xlsx": {
+    "sheet": "공정기록",
+    "header_row": 4,
+    "data_start_row": 5,
+    "mapping": {
+      "Lot_ID": "A",
+      "RF_Power": "B",
+      "Pressure": "C",
+      "Temperature": "D",
+      "Gas_Flow_Rate": "E",
+      "Thickness": "F",
+      "Uniformity": "G"
+    }
+  },
+  "03_다중시트_다른단위.xlsx": {
+    "sheet": "실험 데이터",
+    "header_row": 3,
+    "data_start_row": 4,
+    "mapping": {
+      "Temperature": "A",
+      "Lot_ID": "B",
+      "Uniformity": "C",
+      "RF_Power": "D",
+      "Thickness": "E",
+      "Gas_Flow_Rate": "F",
+      "Pressure": "G"
+    }
+  }
+}

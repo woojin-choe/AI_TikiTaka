@@ -1,0 +1,41 @@
+{
+  "run": "/Users/abc/Documents/AI_TikiTaka/AITikiTaka/semiconductor-regression/demo_validation/runtime/e340b5b787f04044a139779293c9e6c0",
+  "cases": [
+    {
+      "company": "K",
+      "rows": 120,
+      "cells": 840,
+      "matched": true,
+      "model": "LinearRegression",
+      "test": {
+        "thickness": {
+          "MAE": 2.6534965446108574,
+          "R2": 0.9999271150507764
+        },
+        "nonuniformity": {
+          "MAE": 0.02809428853446967,
+          "R2": 0.9937920080643806
+        }
+      },
+      "eligible": true
+    },
+    {
+      "company": "L",
+      "rows": 120,
+      "cells": 840,
+      "matched": true,
+      "model": "LinearRegression",
+      "test": {
+        "thickness": {
+          "MAE": 2.40087012508634,
+          "R2": 0.9999319521156638
+        },
+        "nonuniformity": {
+          "MAE": 0.03555862659595958,
+          "R2": 0.9907274034491237
+        }
+      },
+      "eligible": true
+    }
+  ]
+}

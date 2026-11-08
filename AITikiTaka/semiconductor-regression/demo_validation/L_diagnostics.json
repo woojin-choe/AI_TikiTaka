@@ -1,0 +1,41 @@
+[
+  {
+    "sheet": "측정 원장",
+    "extracted_rows": 120,
+    "columns": {
+      "lot": "AH",
+      "wafer": "AM",
+      "item": "F"
+    }
+  },
+  {
+    "sheet": "Wafer tracking",
+    "extracted_rows": 120,
+    "columns": {
+      "lot": "F",
+      "wafer": "D",
+      "recipe": "E"
+    }
+  },
+  {
+    "sheet": "Recipe settings",
+    "extracted_rows": 120,
+    "columns": {
+      "recipe": "B",
+      "power": "G",
+      "pressure": "F",
+      "temperature": "D",
+      "gas": "C",
+      "time": "E"
+    }
+  },
+  {
+    "measurement_rows": 120,
+    "joined_rows": 120,
+    "tracking_without_measurement": 0
+  },
+  {
+    "output_rows": 120,
+    "invalid_rows_removed": 0
+  }
+]

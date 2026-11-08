@@ -1,0 +1,36 @@
+{
+  "temperature": {
+    "unit": "°C",
+    "status": "원본 근거 확인",
+    "reason": "원본의 명시된 단위를 확인했습니다.",
+    "evidence": [
+      {
+        "sheet": "공정 실험 기록",
+        "cell": "J6",
+        "text": "온도 설정값 (°C)"
+      },
+      {
+        "sheet": "공정 실험 기록",
+        "cell": "C2",
+        "text": "실제 기업 데이터가 아닙니다. 온도 °C / 두께 nm."
+      }
+    ]
+  },
+  "thickness": {
+    "unit": "nm",
+    "status": "원본 근거 확인",
+    "reason": "원본의 명시된 단위를 확인했습니다.",
+    "evidence": [
+      {
+        "sheet": "공정 실험 기록",
+        "cell": "H6",
+        "text": "평균 두께 (nm)"
+      },
+      {
+        "sheet": "공정 실험 기록",
+        "cell": "C2",
+        "text": "실제 기업 데이터가 아닙니다. 온도 °C / 두께 nm."
+      }
+    ]
+  }
+}

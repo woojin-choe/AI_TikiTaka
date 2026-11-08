@@ -1,0 +1,31 @@
+{
+  "temperature": {
+    "unit": "°C",
+    "status": "원본 근거 확인",
+    "reason": "원본의 명시된 단위를 확인했습니다.",
+    "evidence": [
+      {
+        "sheet": "Recipe settings",
+        "cell": "D11",
+        "text": "Temperature setpoint (°C)"
+      },
+      {
+        "sheet": "Recipe settings",
+        "cell": "B2",
+        "text": "실제 기업 데이터가 아닙니다. 온도 °C / 두께 nm."
+      }
+    ]
+  },
+  "thickness": {
+    "unit": "nm",
+    "status": "원본 근거 확인",
+    "reason": "원본의 명시된 단위를 확인했습니다.",
+    "evidence": [
+      {
+        "sheet": "측정 원장",
+        "cell": "B2",
+        "text": "실제 기업 데이터가 아닙니다. 온도 °C / 두께 nm."
+      }
+    ]
+  }
+}

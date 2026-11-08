@@ -21,6 +21,9 @@ env/
 # Project artifacts (generated at runtime)
 artifacts/
 outputs/
+local_data/
+demo_validation/runtime/
+.pytest_cache/
 
 # macOS
 .DS_Store

@@ -163,7 +163,8 @@ def run_training(data_path: str) -> None:
     print("=" * 60)
 
     # Drop completely blank rows to avoid contamination
-    df_clean = df_raw[FEATURE_COLUMNS + TARGET_COLUMNS].copy()
+    group_columns = [c for c in GROUP_COLUMNS if c in df_raw.columns]
+    df_clean = df_raw[FEATURE_COLUMNS + TARGET_COLUMNS + group_columns].copy()
     df_train_raw, df_val_raw, df_test_raw = _split_dataframe(
         df_clean, TRAIN_RATIO, VAL_RATIO, TEST_RATIO, RANDOM_STATE
     )

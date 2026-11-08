@@ -47,6 +47,7 @@ def get_models() -> dict:
         "RandomForest": RandomForestRegressor(
             n_estimators=200,
             random_state=RANDOM_STATE,
+            n_jobs=2,
         ),
         "XGBoost": MultiOutputRegressor(
             XGBRegressor(
@@ -57,6 +58,7 @@ def get_models() -> dict:
                 subsample=0.8,
                 colsample_bytree=0.8,
                 verbosity=0,
+                n_jobs=2,
             )
         ),
     }
